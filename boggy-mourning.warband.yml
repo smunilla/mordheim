@@ -1,0 +1,50 @@
+warband: Boggy Mourning
+active: true
+gc: 0
+shards: 0
+
+# Max 12 Units
+# Racial maximums:
+#  Black Orcs M4, WS7, BS6, S5, T6, W3, I5, A4, Ld9
+#  Orcs M4, WS6, BS6, S4, T5, W3, I5, A4, Ld9
+
+heros:
+  - hero: Orbat Skullcleaver (Black Orc Boss) [20XP]
+    stats: M4, WS4, BS4, S4, T4, W1, I3, A1, Ld8, Sv5
+    skilllists: Combat, Shooting, Strength, Speed, Special
+    weapons: Axe
+    armour: Shield
+    rules: Leader, Black Orc, Oi Behave!
+
+  - hero: Norzic (Black Orc) [8XP]
+    stats: M4, WS4, BS3, S4, T4, W1, I3, A1, Ld7, Sv6
+    skilllists: Combat, Shooting, Strength, Speed, Special
+    weapons: Bow, Dagger
+    armour:
+    rules: Black Orc
+
+  - hero: Vazhid (Black Orc) [8XP]
+    stats: M4, WS4, BS3, S4, T4, W1, I3, A1, Ld7, Sv-
+    skilllists: Combat, Shooting, Strength, Speed, Special
+    weapons: Axe, Dagger
+    armour:
+    rules: Black Orc
+
+  - hero: Gadrik (Young'un) [0XP]
+    stats: M4, WS2, BS2, S3, T4, W1, I2, A1, Ld6, Sv-
+    skilllists: Combat, Shooting, Special
+    weapons: Bow, Dagger
+    armour:
+    rules:
+
+  - hero: Ikut (Young'un) [0XP]
+    stats: M4, WS2, BS2, S3, T4, W1, I2, A1, Ld6, Sv-
+    skilllists: Combat, Shooting, Special
+    weapons: Dagger
+    armour:
+    rules:
+
+henchmen:
+  - group: Teza (Troll) [0XP]
+    stats: M6, WS3, BS1, S5, T4, W3, I1, A3, Ld4, Sv4
+    rules: Fear, Stupidity, Vomit Attack, Large Target, Regeneration, Dumb Monster, Always Hungry,
