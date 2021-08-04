@@ -1,7 +1,8 @@
 warband: Boggy Mourning
 active: true
-gc: 14
+gc: 144
 shards: 0
+equipment: Mordheim Map
 
 # Max 12 Units
 # Racial maximums:
@@ -9,15 +10,15 @@ shards: 0
 #  Orcs M4, WS6, BS6, S4, T5, W3, I5, A4, Ld9
 
 heros:
-  - hero: Orbat Skullcleaver (Black Orc Boss) [22XP]
+  - hero: Orbat Skullcleaver (Black Orc Boss) [23XP]
     stats: M4, WS4, BS4, S4, T4, W1, I3, A1, Ld8, Sv4
     skilllists: Combat, Shooting, Strength, Speed, Special
     weapons: Sword
     armour: Shield, Light Armour
     rules: Leader, Black Orc, Oi Behave!
 
-  - hero: Norzic (Black Orc) [9XP]
-    stats: M4, WS4, BS3, S4, T4, W1, I3, A1, Ld7, Sv6
+  - hero: Norzic (Black Orc) [22XP]
+    stats: M4, WS4, BS3, S4, T4, W1, I3, A2, Ld7, Sv6
     skilllists: Combat, Shooting, Strength, Speed, Special
     weapons: Axe
     armour: Shield
@@ -29,10 +30,11 @@ heros:
     skilllists: Combat, Shooting, Strength, Speed, Special
     weapons: Crossbow, Dagger
     armour:
+    injuries: Horrible Scars (Causes Fear)
     rules: Black Orc
 
-  - hero: Gadrik (Young'un) [2XP]
-    stats: M4, WS2, BS2, S3, T4, W1, I2, A1, Ld6, Sv-
+  - hero: Gadrik (Young'un) [4XP]
+    stats: M4, WS2, BS3, S3, T4, W1, I2, A1, Ld6, Sv-
     skilllists: Combat, Shooting, Special
     weapons: Crossbow, Dagger
     skills: Quick Shot
@@ -44,14 +46,15 @@ heros:
     skilllists: Combat, Shooting, Special
     weapons: Sword
     armour: Shield
-    injuries: One eye
+    injuries: One eye, Hardened (Immune to Fear)
     rules:
 
 henchmen:
   - group: Teza (Troll) [0XP]
     stats: M6, WS3, BS1, S5, T4, W3, I1, A3, Ld4, Sv4
     rules: Fear, Stupidity, Vomit Attack, Large Target, Regeneration, Dumb Monster, Always Hungry
-  - group: Slittaz (3 Boyz) [0XP]
+
+  - group: Slittaz (2 Boyz) [1XP]
     stats: M4, WS3, BS3, S3, T4, W1, I2, A1, Ld6
     weapons: Dagger x2
     rules: Animosity
