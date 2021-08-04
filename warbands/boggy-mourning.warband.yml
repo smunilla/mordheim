@@ -1,6 +1,6 @@
 warband: Boggy Mourning
 active: true
-gc: 0
+gc: 14
 shards: 0
 
 # Max 12 Units
@@ -9,42 +9,49 @@ shards: 0
 #  Orcs M4, WS6, BS6, S4, T5, W3, I5, A4, Ld9
 
 heros:
-  - hero: Orbat Skullcleaver (Black Orc Boss) [20XP]
-    stats: M4, WS4, BS4, S4, T4, W1, I3, A1, Ld8, Sv5
+  - hero: Orbat Skullcleaver (Black Orc Boss) [22XP]
+    stats: M4, WS4, BS4, S4, T4, W1, I3, A1, Ld8, Sv4
+    skilllists: Combat, Shooting, Strength, Speed, Special
+    weapons: Sword
+    armour: Shield, Light Armour
+    rules: Leader, Black Orc, Oi Behave!
+
+  - hero: Norzic (Black Orc) [9XP]
+    stats: M4, WS4, BS3, S4, T4, W1, I3, A1, Ld7, Sv6
     skilllists: Combat, Shooting, Strength, Speed, Special
     weapons: Axe
     armour: Shield
-    rules: Leader, Black Orc, Oi Behave!
+    injuries: One eye
+    rules: Black Orc
 
-  - hero: Norzic (Black Orc) [8XP]
+  - hero: Vazhid (Black Orc) [9XP]
     stats: M4, WS4, BS3, S4, T4, W1, I3, A1, Ld7, Sv6
     skilllists: Combat, Shooting, Strength, Speed, Special
-    weapons: Bow, Dagger
+    weapons: Crossbow, Dagger
     armour:
     rules: Black Orc
 
-  - hero: Vazhid (Black Orc) [8XP]
-    stats: M4, WS4, BS3, S4, T4, W1, I3, A1, Ld7, Sv-
-    skilllists: Combat, Shooting, Strength, Speed, Special
-    weapons: Axe, Dagger
-    armour:
-    rules: Black Orc
-
-  - hero: Gadrik (Young'un) [0XP]
+  - hero: Gadrik (Young'un) [2XP]
     stats: M4, WS2, BS2, S3, T4, W1, I2, A1, Ld6, Sv-
     skilllists: Combat, Shooting, Special
-    weapons: Bow, Dagger
+    weapons: Crossbow, Dagger
+    skills: Quick Shot
     armour:
     rules:
 
-  - hero: Ikut (Young'un) [0XP]
-    stats: M4, WS2, BS2, S3, T4, W1, I2, A1, Ld6, Sv-
+  - hero: Ikut One-eye(Young'un) [1XP]
+    stats: M4, WS2, BS2, S3, T4, W1, I2, A1, Ld6, Sv6
     skilllists: Combat, Shooting, Special
-    weapons: Dagger
-    armour:
+    weapons: Sword
+    armour: Shield
+    injuries: One eye
     rules:
 
 henchmen:
   - group: Teza (Troll) [0XP]
     stats: M6, WS3, BS1, S5, T4, W3, I1, A3, Ld4, Sv4
-    rules: Fear, Stupidity, Vomit Attack, Large Target, Regeneration, Dumb Monster, Always Hungry,
+    rules: Fear, Stupidity, Vomit Attack, Large Target, Regeneration, Dumb Monster, Always Hungry
+  - group: Slittaz (3 Boyz) [0XP]
+    stats: M4, WS3, BS3, S3, T4, W1, I2, A1, Ld6
+    weapons: Dagger x2
+    rules: Animosity
