@@ -1,6 +1,6 @@
 warband: Boggy Mourning
 active: true
-gc: 144
+gc: 344
 shards: 0
 equipment: Mordheim Map
 
@@ -10,51 +10,51 @@ equipment: Mordheim Map
 #  Orcs M4, WS6, BS6, S4, T5, W3, I5, A4, Ld9
 
 heros:
-  - hero: Orbat Skullcleaver (Black Orc Boss) [23XP]
-    stats: M4, WS4, BS4, S4, T4, W1, I3, A1, Ld8, Sv4
+  - hero: Orbat Skullcleaver (Black Orc Boss) [24XP]
+    stats: M4, WS4, BS4, S5, T4, W1, I3, A1, Ld8, Sv3
     skilllists: Combat, Shooting, Strength, Speed, Special
-    weapons: Sword
-    armour: Shield, Light Armour
+    weapons: Axe (S5; -1 to Armour Save)
+    armour: Shield (+1 Sv), Heavy Armour (+2 Sv)
     rules: Leader, Black Orc, Oi Behave!
 
   - hero: Norzic (Black Orc) [22XP]
-    stats: M4, WS4, BS3, S4, T4, W1, I3, A2, Ld7, Sv6
+    stats: M4, WS4, BS2, S4, T4, W1, I3, A2, Ld7, Sv3
     skilllists: Combat, Shooting, Strength, Speed, Special
-    weapons: Axe
-    armour: Shield
-    injuries: One eye
+    weapons: Axe (S4; -1 to  Armour Saves)
+    armour: Shield (+1 Sv), Heavy Armour (+2 Sv)
+    injuries: One eye (-1 BS)
     rules: Black Orc
 
   - hero: Vazhid (Black Orc) [9XP]
-    stats: M4, WS4, BS3, S4, T4, W1, I3, A1, Ld7, Sv6
+    stats: M4, WS4, BS3, S4, T4, W1, I3, A1, Ld7, Sv4
     skilllists: Combat, Shooting, Strength, Speed, Special
-    weapons: Crossbow, Dagger
-    armour:
+    weapons: Crossbow (S4; 30"; Move or shoot), Sword (S4; Parry)
+    armour: Heavy Armour (+2 Sv)
     injuries: Horrible Scars (Causes Fear)
     rules: Black Orc
 
-  - hero: Gadrik (Young'un) [4XP]
-    stats: M4, WS2, BS3, S3, T4, W1, I2, A1, Ld6, Sv-
+  - hero: Gadrik Crackshot (Young'un) [6XP]
+    stats: M4, WS2, BS3, S3, T4, W2, I2, A1, Ld6, Sv6
     skilllists: Combat, Shooting, Special
-    weapons: Crossbow, Dagger
-    skills: Quick Shot
-    armour:
+    weapons: Crossbow (S4; 30"; Move or shoot), Sword (S4; Parry)
+    skills: Quick Shot (+1 Ranged Attack)
+    armour:  
     rules:
 
-  - hero: Ikut One-eye(Young'un) [1XP]
-    stats: M4, WS2, BS2, S3, T4, W1, I2, A1, Ld6, Sv6
+  - hero: Ikut One-eye (Young'un) [5XP]
+    stats: M4, WS3, BS2, S3, T4, W1, I2, A1, Ld6, Sv6
     skilllists: Combat, Shooting, Special
-    weapons: Sword
+    weapons: Spear (S3; Strike first)
     armour: Shield
     injuries: One eye, Hardened (Immune to Fear)
-    rules:
+    rules: Light Armour (+1 Sv)
 
 henchmen:
   - group: Teza (Troll) [0XP]
     stats: M6, WS3, BS1, S5, T4, W3, I1, A3, Ld4, Sv4
     rules: Fear, Stupidity, Vomit Attack, Large Target, Regeneration, Dumb Monster, Always Hungry
 
-  - group: Slittaz (2 Boyz) [1XP]
-    stats: M4, WS3, BS3, S3, T4, W1, I2, A1, Ld6
+  - group: Slittaz (3 Boyz) [1XP]
+    stats: M4, WS3, BS3, S3, T4, W1, I2, A2, Ld6
     weapons: Dagger x2
     rules: Animosity
